@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kevincobain2000@gmail.com"]
   spec.description   = %q{Sentiment Analysis with negation}
   spec.summary       = %q{Simple and Faster Sentiment Classifier categorizes sentence into positive & negative}
-  spec.homepage      = "http://www8355ue.sakura.ne.jp/?action_classifiers_sentiment=true"
+  spec.homepage      = "https://github.com/kevincobain2000/sentiments"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
