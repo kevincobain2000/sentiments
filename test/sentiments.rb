@@ -1,5 +1,4 @@
 require 'sentiments'
+puts sentiments.score("nice movie")
 
-c = Sentiments::Classifier.new
-puts c.classify()
 
