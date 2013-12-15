@@ -1,6 +1,16 @@
 # Sentiments
 
-TODO: Write a gem description
+Simple and Faster Sentiment Classifier categorizes sentence into positive & negative.
+Tries to handle negation
+
+## Demos
+
+- [Online Demo Sentiment Classifier]
+- [Online Demo Sentiment Classifier Live Tweets Analysis]
+
+[Online Demo Sentiment Classifier]: http://www8355ue.sakura.ne.jp/?action_classifiers_sentiment=true
+
+[Online Demo Sentiment Classifier Live Tweets Analysis]: http://www8355ue.sakura.ne.jp/?action_classifiers_twitter=true
 
 ## Installation
 
@@ -18,7 +28,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'sentiments'
+puts sentiments.score("nice movie")
+```
+
+## To Do
+
+Complete data word list
 
 ## Contributing
 
