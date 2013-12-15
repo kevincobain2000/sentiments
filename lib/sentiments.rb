@@ -75,7 +75,9 @@ module Sentiments
     private
 
     def load_json(filename)
-      return JSON.parse(IO.read('sentiments/data/' +filename +'.json'))
+      path = 'sentiments/data/'
+      path = File.dirname(__FILE__) + '/sentiments/data/'
+      return JSON.parse(IO.read(path +filename +'.json'))
     end
 
     def set_dictionary(category)
@@ -102,5 +104,6 @@ module Sentiments
   end #class
 end #module
 
-classifier = Sentiments::Classifier.new
-puts classifier.score("lovely performance")
+def sentiments
+  return Sentiments::Classifier.new
+end
