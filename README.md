@@ -3,15 +3,6 @@
 Simple and Faster Sentiment Classifier categorizes sentence into positive & negative.
 Tries to handle negation
 
-## Demos
-
-- [Online Demo Sentiment Classifier]
-- [Online Demo Sentiment Classifier Live Tweets Analysis]
-
-[Online Demo Sentiment Classifier]: http://www8355ue.sakura.ne.jp/?action_classifiers_sentiment=true
-
-[Online Demo Sentiment Classifier Live Tweets Analysis]: http://www8355ue.sakura.ne.jp/?action_classifiers_twitter=true
-
 ## Installation
 
 Add this line to your application's Gemfile:
